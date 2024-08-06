@@ -27,3 +27,21 @@ body{
 .main{
     flex: 1 1 auto;
 }
+
+@media (max-width: 962px){
+    html{
+        font-size: calc(100vw / 430 * 10);
+    }
+    section{
+        overflow: hidden;
+    }
+    header{
+        overflow: hidden;
+    }
+    footer{
+        overflow: hidden;
+    }
+    .container{
+        padding: 1.5rem;
+    }
+}
