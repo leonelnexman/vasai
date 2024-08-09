@@ -743,10 +743,45 @@
 	}
 }
 
+.main-section__subimg{
+	position: absolute;
+	width: 29.2rem;
+	bottom: 28rem;
+	left: 85rem;
+}
+
+.banner__btn{
+	font-size: 3rem;
+	padding: 3rem 5rem;
+}
+
+.modal__flex p{
+	font-size: 1.7rem;
+}
+
+.modal__flex p{
+	max-width: 49rem;
+}
+
+.content__input svg{
+	transition: all 0.5s;
+	opacity: 0;
+	&.visible{
+		opacity: 1;
+	}
+}
+
 @media (max-width: 962px){
     html{
         font-size: calc(100vw / 430 * 10);
     }
+	.main-section__subimg{
+		display: none;
+	}
+	.main-section .container{
+		position: relative;
+		z-index: 777;
+	}
     section{
         overflow: hidden;
     }
